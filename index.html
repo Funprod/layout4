@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>page</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+            alt="logo here"
+            id="header-img"
+          />
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#info">info</a></li>
+            <li><a class="nav-link" href="#video">video</a></li>
+            <li><a class="nav-link" href="#form">form</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="info"></main>
+      <div>
+        <video id="video" src="https://youtu.be/y8Yv4pnO7qc"></video>
+      </div>
+      <div>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            name="email"
+            type="email"
+            id="email"
+            placeholder="email"
+            pattern="/^[a-zA-Z0-9.!#$%&*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+            required
+          />
+          <input type="submit" value="submit" id="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
